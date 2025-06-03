@@ -1,0 +1,34 @@
+Package: biographr
+Title: Graphing and Statistics for Biology Students
+Version: 0.0.0.9000
+Authors@R: 
+    person(
+      given = "Tara", 
+      family = "Rajaniemi",
+      email = "trajaniemi@umassd.edu",
+      role = c("aut", "cre"),
+      comment = c(ORCID = "0000-0003-2861-3901")
+    )
+Description: Creates graphs and does statistical analysis for biological data.
+License: MIT + file LICENSE
+Imports: 
+    car,
+    config,
+    dplyr,
+    ggplot2,
+    golem,
+    gt,
+    readxl,
+    shiny,
+    shinydashboard,
+    shinyjqui,
+    shinyjs,
+    stats,
+    stringr,
+    tibble,
+    tidyr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 3.5)

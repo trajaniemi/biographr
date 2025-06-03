@@ -1,0 +1,102 @@
+.shiny-output-error {
+  visibility: hidden;
+  }
+
+.shiny-output-error:before {
+  visibility: visible;
+  content: 'An error occurred. Please try again.';
+}
+
+.skin-blue .main-header .logo {
+  background-color: #003764;
+
+}
+
+.skin-blue .main-header .navbar {
+  background-color: #FEC24D;
+
+}
+
+.skin-blue .sidebar-menu > li.active > a,
+.skin-blue .sidebar-menu > li:hover > a {
+  border-left-color: #FEC24D;
+  }
+
+.box.box-primary >.box-header {
+  color:white;
+  background:#003764;
+
+}
+
+.box.box-primary {
+  border-bottom-color:white;
+  border-left-color:white;
+  border-right-color:white;
+  border-top-color:#003764;
+
+}
+
+
+.box.box-solid.box-primary >.box-header {
+  color:white;
+  background:#003764;
+
+}
+
+.box.box-solid.box-primary {
+  border-bottom-color:white;
+  border-left-color:white;
+  border-right-color:white;
+  border-top-color:#003764;
+
+}
+
+.box.box-info >.box-header {
+  color:white;
+  background:#FEC24D;
+
+}
+
+.box.box-info {
+  border-bottom-color:white;
+  border-left-color:white;
+  border-right-color:white;
+  border-top-color:#FEC24D;
+
+}
+
+.box.box-solid.box-info >.box-header {
+  color:white;
+  background:#FEC24D;
+
+}
+
+.box.box-solid.box-info {
+  border-bottom-color:white;
+  border-left-color:white;
+  border-right-color:white;
+  border-top-color:#FEC24D;
+
+}
+
+
+.btn,
+.btn:focus{
+  color:black;
+  background:#FEC24D;
+  border-bottom-color:#FEC24D;
+  border-left-color:#FEC24D;
+  border-right-color:#FEC24D;
+  border-top-color:#FEC24D;
+}
+
+.js-irs-0 .irs-single, .js-irs-0 .irs-bar-edge, .js-irs-0 .irs-bar {
+  background: #003764 ;
+  border-top: 1px solid #003764 ;
+  border-bottom: 1px solid #003764 ;
+}
+.irs-from, .irs-to, .irs-single {
+  background: #003764;
+}
+
+
