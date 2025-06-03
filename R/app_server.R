@@ -14,9 +14,9 @@ app_server <- function(input, output, session) {
 
   w_data <- shiny::eventReactive(input$go_data, {
     if (input$data_type == 1) {
-      d <- dunes
+      d <- dunes()
     } else if (input$data_type == 2) {
-      d <- heart
+      d <- heart()
     } else {
       if (is.null(input$data_file)) {
         return(data.frame(x = "Select your datafile."))
