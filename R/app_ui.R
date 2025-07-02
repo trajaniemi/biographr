@@ -32,7 +32,7 @@ app_ui <- function(request) {
 		shinyjs::extendShinyjs(
 			text = "shinyjs.closeWindow = function() { window.close(); }",
 			functions = c("closeWindow")),
-	  
+
 	  shinydashboard::tabItems(
 
           # --- # --- # Data tab # --- # --- #
@@ -211,7 +211,7 @@ app_ui <- function(request) {
                                   ),
 
                                   shiny::tabPanel("Options",
-                                           shiny::conditionalPanel("input.stat == 'freq'",
+                                           shiny::conditionalPanel("input.stat == 'descr'",
                                                             shiny::numericInput("dec", "Maximum decimal places to report", 3)
                                            ),
                                            shiny::conditionalPanel("input.stat == 't1'",
