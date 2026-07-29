@@ -1,6 +1,6 @@
 Package: biographr
 Title: Graphing and Statistics for Biology Students
-Version: 1.0
+Version: 1.0.1
 Authors@R: 
     person(
       given = "Tara", 
