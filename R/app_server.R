@@ -27,7 +27,7 @@ app_server <- function(input, output, session) {
                     xlsx = readxl::read_excel(input$data_file$datapath,
                                       na = c("NA","na","n/a","N/A",""),
                                       .name_repair = "universal"),
-                    csv = read_csv(input$data_file$datapath,
+                    csv = read.csv(input$data_file$datapath,
                                    na = c("NA","na","n/a","N/A",""),
                                    col_types = cols()),
                     shiny::validate("Invalid file. Please upload a .csv or .xlsx file.")
